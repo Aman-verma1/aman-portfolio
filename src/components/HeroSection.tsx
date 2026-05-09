@@ -89,13 +89,15 @@ export default function HeroSection() {
           >
             View Projects
           </motion.button>
-          <motion.button
+          <motion.a
+            href="/resume.pdf"
+            download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 border border-accent-violet text-accent-violet font-semibold rounded-lg hover:bg-accent-violet/10 transition-colors"
+            className="inline-block px-8 py-3 border border-accent-violet text-accent-violet font-semibold rounded-lg hover:bg-accent-violet/10 transition-colors"
           >
             Download Resume
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         <motion.div
