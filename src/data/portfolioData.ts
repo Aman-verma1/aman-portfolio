@@ -140,13 +140,13 @@ export const portfolioData: PortfolioData = {
     },
   ],
   contact: {
-    email: 'amanverma.dev@gmail.com',
-    linkedin: 'https://linkedin.com/in/aman-verma-dev',
+    email: 'amannamdev9211@gmail.com',
+    linkedin: 'https://linkedin.com/in/aman-verma1',
     location: 'Indore, MP, India',
   },
   socialLinks: [
     { name: 'GitHub', url: 'https://github.com/amanverma', icon: 'github' },
     { name: 'LinkedIn', url: 'https://linkedin.com/in/aman-verma-dev', icon: 'linkedin' },
-    { name: 'Email', url: 'mailto:amanverma.dev@gmail.com', icon: 'email' },
+    { name: 'Email', url: 'mailto:amannamdev9211@gmail.com', icon: 'email' },
   ],
 };
