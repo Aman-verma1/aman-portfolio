@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { motion, useInView, useMotionValue, useSpring } from 'framer-motion';
 import { portfolioData } from '../data/portfolioData';
-import { EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import { EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline';
 
 export default function ContactSection() {
   const ref = useRef<HTMLDivElement>(null);
@@ -77,6 +77,18 @@ export default function ContactSection() {
                 <p className="text-text-muted text-sm">LinkedIn</p>
                 <a href={portfolioData.contact.linkedin} target="_blank" rel="noopener noreferrer" className="text-text-primary hover:text-accent-cyan transition-colors">
                   Connect with me
+                </a>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4 p-6 bg-surface rounded-2xl border border-white/5">
+              <div className="p-3 bg-accent-violet/10 rounded-xl">
+                <PhoneIcon className="w-6 h-6 text-accent-violet" />
+              </div>
+              <div>
+                <p className="text-text-muted text-sm">Phone</p>
+                <a href={`tel:${portfolioData.contact.phone}`} className="text-text-primary hover:text-accent-cyan transition-colors">
+                  {portfolioData.contact.phone}
                 </a>
               </div>
             </div>
